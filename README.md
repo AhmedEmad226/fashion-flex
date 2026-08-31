@@ -1,2 +1,3 @@
-# fashion-flex
-Fashionable Static Flex-based Page
+# Fashion Flex
+** Fashionable Static Flex-based Page **
+
