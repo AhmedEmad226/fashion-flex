@@ -15,7 +15,7 @@ body {
 }
 
 .sec {
-  padding: 50px;
+  padding: 80px;
 }
 
 /* New property */
@@ -207,4 +207,13 @@ a {
   padding: 8px 24px;
   border: #F9FAF8 solid 2px;
   border-radius: 12px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  color: #F9FAF8;
 }
