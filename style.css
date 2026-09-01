@@ -163,5 +163,48 @@ a {
 
 /* Alert section */
 .alert-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.alert {
+  background-color: #3882F6;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+}
+
+.alert-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 36px 0;
+  gap: 8px;
+}
+
+.alert-text p {
+  margin: 0;
+}
+
+.alert-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.alert-description {
+  color: #E5E7EB;
+}
+
+.alert-button {
+  font-size: 16px;
+  color: #F9FAF8;
+  background-color: transparent;
+  font-weight: 900;
+  padding: 8px 24px;
+  border: #F9FAF8 solid 2px;
+  border-radius: 12px;
 }
