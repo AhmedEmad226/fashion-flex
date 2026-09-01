@@ -7,3 +7,36 @@
   box-sizing: border-box;
   font-family: roboto, cursive;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header, .main-sec, .footer {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 24px;
+}
+
+a {
+  color: #f9faf8ce;
+  text-decoration: none;
+}
