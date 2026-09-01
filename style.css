@@ -25,7 +25,12 @@ img {
 }
 
 /* Header */
-.header, .sec-main, .footer {
+.screen {
+  /* Make main section and header's height exactly as the screen's height */
+  height: 100vh;
+}
+
+.screen, .footer {
   background-color: #1F2937;
 }
 
@@ -54,7 +59,7 @@ a {
 }
 
 /* Main section */
-.sec-main {
+.main-sec {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +75,7 @@ a {
   max-width: 700px;
 }
 
-.sec-main p {
+.main-sec p {
   color: #E5E7EB;
   font-size: 18px;
   max-width: 500px;
@@ -103,7 +108,7 @@ a {
 }
 
 /* Preview section */
-.sec-preview {
+.preview-sec {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -154,4 +159,9 @@ a {
 .quote-author {
   align-self: flex-end;
   font-weight: bold;
+}
+
+/* Alert section */
+.alert-sec {
+
 }
